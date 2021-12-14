@@ -39,7 +39,7 @@ public class Server {
 			// 메세지 받기
 			String msg = br.readLine();
 			if (msg == null) {
-				System.out.println("클라이언트 접속키 입력");
+				System.out.println("클라이언트 종료키 입력");
 				break;
 			}
 			System.out.println("받은메세지: " + msg);
